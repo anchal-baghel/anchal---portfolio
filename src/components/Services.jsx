@@ -1,0 +1,53 @@
+export default function Services() {
+    const services = [
+        {
+            name: 'Java Full Stack Development',
+            icon: './assets/web-icon.png',
+            description: "Build scalable web apps using Spring Boot, React, and database-driven REST APIs.",
+            
+        },
+        {
+            name: 'MERN Stack Development',
+            icon: './assets/mobile-icon.png',
+            description:  "Modern full-stack apps using MongoDB, Express, React, and Node with responsive UI.",
+            
+        },
+        {
+            name: 'Python Django Backend',
+            icon: './assets/ui-icon.png',
+            description:  "Secure backend architecture with Django, authentication, and structured APIs.",
+            //link: '#',
+        },
+        {
+            name: 'REST API Development',
+            icon: './assets/graphics-icon.png',
+            description: "Design clean, efficient APIs with validation, routing, and database integration.",
+           // link: '#',
+        },
+        {
+    name: 'Problem Solving & Optimization',
+    icon: './assets/graphics-icon.png',
+    description:  "Improve performance, logic flow, and scalability using optimized coding practices.",
+   // link: '#',
+}
+    ];
+    return (
+        <div id="services" className="w-full px-[12%] py-10 scroll-mt-20">
+            <h4 className="text-center mb-2 text-lg font-Ovo">What i offer</h4>
+            <h2 className="text-center text-5xl font-Ovo">My services</h2>
+            <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">Professional development services focused on scalable architecture,
+        clean UI, and real-world application performance.</p>
+
+            <div className="grid grid-cols-auto gap-6 my-10">
+                {services.map((service) => (
+                    <div key={service.name} className="border border-gray-300 dark:border-white/30 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white">
+                        <img src={service.icon} alt="" className="w-10" />
+                        <h3 className="text-lg my-4 text-gray-700 dark:text-white">{service.name}</h3>
+                        <p className="text-sm text-gray-600 leading-5 dark:text-white/80">{service.description}</p>
+                       {/*} <a href={service.link} className="flex items-center gap-2 text-sm mt-5">Read more <img src="./assets/right-arrow.png" alt="" className="w-4" /></a>*/}
+                    </div>
+                ))}
+            </div>
+        </div>
+    )
+}
