@@ -1,40 +1,54 @@
-# Eliana - React JS Portfolio Template
-#### Preview
+# 🌐 My Professional Portfolio
 
- - [Demo](https://themewagon.github.io/eliana-react/)
+Welcome to my personal portfolio repository! This project showcases my journey as a **Full-Stack Developer**, featuring my technical skills, academic background, and the real-world applications I've built.
 
-#### Download
- - [Download from ThemeWagon](https://themewagon.com/themes/eliana-react/)
+🚀 **Live Demo:** [anchalbaghel.netlify.app](https://anchalbaghel.netlify.app)
 
-## Getting Started
+---
 
-1. Clone Repository
-```
-git clone https://github.com/themewagon/eliana-react.git
-```
-2. Install Dependencies
-```
-npm i
-```
-3. Run the development server:
+## 🛠️ Technical Expertise
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I specialize in building scalable web applications using the following technologies:
 
-## Author 
-```
-Design and code is completely written by PrebuiltUI and development team. 
-```
+| Category | Skills |
+| :--- | :--- |
+| **Frontend** | React.js, Context API, Axios, Bootstrap, HTML5, CSS3, JavaScript |
+| **Backend** | Java, Spring Boot, Spring Data JPA, REST APIs |
+| **Database** | MySQL, PostgreSQL |
+| **Tools/DevOps** | Git, GitHub, Netlify, Maven |
 
-## License
+---
 
- - Design and Code is Copyright &copy; <a href="https://prebuiltui.com/" target="_blank">PrebuiltUI</a>
- - Licensed cover under [MIT]
- - Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+## 📂 Featured Projects
+
+### 💰 RDsystem - Recurring Deposit Management
+A full-stack finance application to automate RD tracking and fine calculations.
+* **Tech:** React, Spring Boot, MySQL, REST API.
+
+### 📊 Personal Transaction Manager
+A tool for managing daily expenses and income tracking.
+* **Tech:** React, Context API, Axios, Bootstrap.
+
+### 🏦 Backend API Internship Work
+Designed and implemented robust REST APIs for financial management.
+* **Tech:** Spring Boot, PostgreSQL, JPA.
+
+---
+
+## 🚀 Learning Path
+Currently, I am deep-diving into:
+* **Advanced Spring Boot & Microservices**
+* **Cloud Infrastructure Basics**
+* **System Design Patterns**
+
+---
+
+## 🤝 Let's Connect
+I am always open to collaborating on Java Full-Stack or REST API-based projects.
+
+* **LinkedIn:** [Anchal Baghel](https://www.linkedin.com/in/anchal-baghel/)
+* **Portfolio:** [anchalbaghel.netlify.app](https://anchalbaghel.netlify.app)
+* **GitHub:** [@anchal-baghel](https://github.com/anchal-baghel)
+
+---
+*Created with ❤️ by Anchal Baghel*
