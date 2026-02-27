@@ -34,7 +34,7 @@ const [currentImgIndex, setCurrentImgIndex] = useState(0);
            "./assets/per3.jpeg"
  
     ],
-      link: "https://github.com/anchal-baghel/Personal-Transaction-Manager",
+      link: "https://github.com/anchal-baghel/Expense-Manager",
     },
     {
       name: "Backend API Internship Work",
