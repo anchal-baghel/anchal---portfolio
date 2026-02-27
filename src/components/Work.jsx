@@ -8,7 +8,7 @@ const [currentImgIndex, setCurrentImgIndex] = useState(0);
       name: "Recurring Deposit Management System",
       description:
         "Full‑stack app with Spring Boot + React for deposit tracking, CRUD APIs, dashboards, and real‑time summaries.",
-      tech: "Spring Boot • React • REST API • MySQL",
+      tech: "Spring Boot • React • REST API •PostgreSQL ",
       images: [
     "./assets/rd-mock.png",
       "./assets/s1.png",   // Main Table
@@ -19,7 +19,7 @@ const [currentImgIndex, setCurrentImgIndex] = useState(0);
      // "./assets/rd-entries.png"       // Update User
     ],
     
-      link: "#",
+      link: "https://github.com/anchal-baghel/RDSystem",
     },
     {
       name: "Personal Transaction Manager",
@@ -34,7 +34,7 @@ const [currentImgIndex, setCurrentImgIndex] = useState(0);
            "./assets/per3.jpeg"
  
     ],
-      link: "#",
+      link: "https://github.com/anchal-baghel/Personal-Transaction-Manager",
     },
     {
       name: "Backend API Internship Work",
@@ -47,7 +47,7 @@ const [currentImgIndex, setCurrentImgIndex] = useState(0);
 "./assets/sws3.png",
 "./assets/sws2.png"
       ],
-      link: "#",
+      link:  "https://github.com/anchal-baghel/RdSystem-Backend",
     },
   ];
   const nextImage = (e) => {
@@ -94,6 +94,17 @@ const [currentImgIndex, setCurrentImgIndex] = useState(0);
 
                 <h2 className="font-semibold">{project.name}</h2>
                 <p className="text-sm text-gray-700">{project.tech}</p>
+
+                {/* 🚀 Naya GitHub Link Button */}
+    <a 
+      href={project.link} 
+      target="_blank" 
+      rel="noreferrer" 
+      onClick={(e) => e.stopPropagation()} // Isse modal nahi khulega, link khulegi
+      className="text-xs text-blue-600 hover:underline mt-1 inline-block"
+    >
+      View Code on GitHub
+    </a>
               </div>
               <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
                 <img src="./assets/send-icon.png" alt="" className="w-5" />
